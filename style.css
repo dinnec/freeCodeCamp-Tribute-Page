@@ -1,0 +1,137 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    background-color: rgba(66, 66, 66, 0.1);
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+}
+#wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+a {
+    color: #6D4C41;
+}
+
+a:hover{
+    color: #543227;
+}
+
+.jumbotron {
+    background: url("images/header.png") no-repeat center center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: 50% 50%;
+    min-height:100%;
+    padding-top:100px;;
+    background-color: #000;
+}
+
+#hdr-title {    
+    color: rgb(255, 34, 32);
+    display: inline;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 5.8em;
+    line-height: 1.4em;
+}
+
+#hdr-subtitle {
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #211f1e;
+    display: inline;
+    font-size: 1.25em;
+}
+
+#hdr-container{
+    padding-top: 350px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 50px;
+    opacity: 1;
+    text-align: center;
+    color: #6D4C41;
+}
+
+.col-md-6 {
+    margin-bottom: 50px;
+}
+
+.author {
+    font-size: 20px;
+    color: #6D4C41;
+}
+
+.about-content {
+    width: 70%;
+    margin: auto;
+    text-align: justify;
+    margin-bottom: 50px;
+}
+
+.sinopsis {
+    margin-bottom: 20px;
+}
+
+h3 {
+    font-weight: 500;
+    font-size: 20px;
+    color: #6D4C41;
+}
+
+img {
+    height: 125px;
+    border-radius: 50%;
+    display: inline;
+    margin-right: 15px;
+    margin-top: 13px;
+}
+
+.bio {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bio > p{
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+.footer{
+    background-color: #424242;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.footer-content {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-content > p {
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+ 
+.disclaimer {
+    padding-bottom: 10px;
+}
